@@ -2,9 +2,10 @@
 export default function Navbar() {
     return (
         <>
+
 <nav className="navbar navbar-dark bg-dark ">
   <div className="container-fluid">
-    <a className="navbar-brand" href="/">Navbar</a>
+    <a className="navbar-brand" href="/"><img src="https://physics.iitpkd.ac.in/images/design/iitpkd_header.jpg" className="img-fluid"/></a>
     <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span className="navbar-toggler-icon"></span>
     </button>
