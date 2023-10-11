@@ -1,6 +1,6 @@
 export default function Header() {
     return (
-        <div>
+        <div className="p-3">
             <h3 class="small-heading event-type">Flagship Workshop</h3>
             <h2 class="large-heading event-title">Mesoscale modelling of driven disordered materials: from glasses to active matter</h2>
             <h4 class="md-heading event-date">May 24, 2023 - May 26, 2023</h4>
