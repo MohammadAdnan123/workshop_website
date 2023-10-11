@@ -2,7 +2,7 @@ export default function Description(props) {
     
     if(props.url==="desc"){
         return (
-            <div class="container">
+            <div class="container py-5">
                 <div>
                     <h4>Organisers</h4>
                     <ul>
@@ -47,7 +47,7 @@ export default function Description(props) {
     }
     else if(props.url==="part"){
         return(
-            <div>
+            <div class="container py-5">
                 <h4>Canada</h4>
                 <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
                 <h4>Canada</h4>
@@ -63,11 +63,9 @@ export default function Description(props) {
     }
     else if(props.url==="program"){
         return(
-            <div>
+            <div class="container py-5">
                 <div>
                     <h4 class="extra-program">All listed times are in Europe/Zurich - GMT+02:00</h4>
-                    <button onclick="sendEventProgramComputerTime()">Convert to my time</button>
-                    <button onclick="sendEventProgram()">Time set by organisers</button>
                 </div>
                 <div>
                     <h2>Wednesday May 24th 2023  - Day 1</h2>
@@ -105,7 +103,7 @@ export default function Description(props) {
     }
     else if(props.url==="abstract"){
         return(
-            <div>
+            <div class="container py-5">
                 <h4>Talks</h4>
                 <ul>      
                     <li>
@@ -159,7 +157,7 @@ export default function Description(props) {
     }
     else if(props.url==="doc"){
         return(
-            <div>
+            <div class="container py-5">
                 <div>
                     <h4>Booklet</h4>
                     <img src="https://members.cecam.org/images/pdf-file.png" width="24px" alt=""></img>

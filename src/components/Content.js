@@ -1,32 +1,33 @@
 import { Link } from "react-router-dom";
 export default function Content() {
-  return (
-    <div class="btn-group" role="group" aria-label="Basic example">
-      <button type="button" class="btn btn-primary">
-        <Link to="/" className="text-white">
-          Description
-        </Link>
-      </button>
-      <button type="button" class="btn btn-primary">
-        <Link to="/participant" className="text-white">
-          Participant
-        </Link>
-      </button>
-      <button type="button" class="btn btn-primary">
-        <Link to="/program" className="text-white">
-          Program
-        </Link>
-      </button>
-      <button type="button" class="btn btn-primary">
-        <Link to="/abstract" className="text-white">
-          Abstract
-        </Link>
-      </button>
-      <button type="button" class="btn btn-primary">
-        <Link to="/document" className="text-white">
-          Document
-        </Link>
-      </button>
-    </div>
-  );
+    return (
+        <ul class="nav nav-pills nav-fill bg-secondary bg-gradient" role="group" aria-label="Basic example">
+            <li class="nav-item border border-2 p-2">
+                <Link to="/" className="text-black">
+                    Description
+                </Link>
+            </li>
+            <li class="nav-item border border-2 p-2">
+                <Link to="/participant" className="text-black">
+                    Participant
+                </Link>
+            </li>
+            <li class="nav-item border border-2 p-2">
+                <Link to="/program" className="text-black">
+                    Program
+                </Link>
+            </li>
+            <li class="nav-item border border-2 p-2">
+                <Link to="/abstract" className="text-black">
+
+                    Abstract
+                </Link>
+            </li>
+            <li class="nav-item border border-2 p-2">
+                <Link to="/document" className="text-black">
+                    Document
+                </Link>
+            </li>
+        </ul>
+    );
 }
