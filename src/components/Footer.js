@@ -1,76 +1,34 @@
 export default function Footer() {
   return (
     <footer className="bg-dark text-center text-white  position-relative">
-      {/* <!-- Grid container --> */}
       <div className="container p-4 pb-0">
-        {/* <!-- Section: Social media --> */}
         <section className="mb-4">
-          {/* <!-- Facebook --> */}
+
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="/"
+            href="https://www.iitpkd.ac.in/about-iit-palakkad"
             role="button"
           >
-            <i className="fab fa-facebook-f"></i>
+            <i className="fab fa-facebook-f"> About IIT Palakkad</i>
           </a>
 
-          {/* <!-- Twitter --> */}
           <a
             className="btn btn-outline-light btn-floating m-1"
-            href="/"
+            href="https://www.iitpkd.ac.in/how-reach"
             role="button"
+            target="blank"
           >
-            <i className="fab fa-twitter"></i>
+            <i className="fab fa-twitter">Reaching IIT Palakkad</i>
           </a>
 
-          {/* <!-- Google --> */}
-          <a
-            className="btn btn-outline-light btn-floating m-1"
-            href="/"
-            role="button"
-          >
-            <i className="fab fa-google"></i>
-          </a>
-
-          {/* <!-- Instagram --> */}
-          <a
-            className="btn btn-outline-light btn-floating m-1"
-            href="/"
-            role="button"
-          >
-            <i className="fab fa-instagram"></i>
-          </a>
-
-          {/* <!-- Linkedin --> */}
-          <a
-            className="btn btn-outline-light btn-floating m-1"
-            href="/"
-            role="button"
-          >
-            <i className="fab fa-linkedin-in"></i>
-          </a>
-
-          {/* <!-- Github --> */}
-          <a
-            className="btn btn-outline-light btn-floating m-1"
-            href="/"
-            role="button"
-          >
-            <i className="fab fa-github"></i>
-          </a>
         </section>
-        {/* <!-- Section: Social media --> */}
       </div>
-      {/* <!-- Grid container --> */}
 
-      {/* <!-- Copyright --> */}
+
       <div className="text-center p-3">
-        © 2020 Copyright:
-        <a className="text-white" href="#">
-          MDBootstrap.com
-        </a>
+        
       </div>
-      {/* <!-- Copyright --> */}
+      
     </footer>
   );
 }

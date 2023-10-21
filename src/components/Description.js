@@ -1,187 +1,196 @@
+// import "";
 export default function Description(props) {
-    
-    if(props.url==="desc"){
-        return (
-            <div class="container py-5">
-                <div>
-                    <h4>Organisers</h4>
-                    <ul>
-                        <li>Elisabeth Agoritsas (University of Geneva)</li>
-                        <li>Misaki Ozawa (University of Grenoble Alpes)</li>
-                        <li>Sylvain Patinet (CNRS ESPCI)</li>
-                    </ul>
-                </div>
-                <div>
-                    <h4>Program</h4>
-                    <p>
-                        The program and abstracts can be seen <a href="#">here</a>. (see also a 
-                        comprehensive <a href="#">timetable</a>)
-                    </p>
-                </div>
-                <div>
-                    <h4>Presentation</h4>
-                    <p>
-                        Each invited and contributed talk takes 30 minutes, including questions and answers. The poster session will be held at 17:30-19:00 on Wednesday, 24/05.
-                    </p>
-                </div>
-                <div>
-                    <h4>Conference dinner</h4>
-                    <p>
-                        We will have a conference dinner at 19:00-21:30, on Thursday 25/05, at <a href="$">Loxton </a> near the city center.
-                    </p>
-                </div>
-                <div>
-                    <h4>Description</h4>
-                    <p>
-                        Each invited and contributed talk takes 30 minutes, including questions and answers. The poster session will be held at 17:30-19:00 on Wednesday, 24/05.
-                    </p>
-                </div>
-                <div>
-                    <h4>References</h4>
-                    <a href="#">[1] D. Rodney, A. Tanguy, D. Vandembroucq, Modelling Simul. Mater. Sci. Eng., 19, 083001 (2011)</a>
-                    <br></br>
-                    <a href="#">[2] A. Nicolas, E. Ferrero, K. Martens, J. Barrat, Rev. Mod. Phys., 90, 045006 (2018)</a>
-                </div>
-            </div>
-        )
-    }
-    else if(props.url==="part"){
-        return(
-            <div class="container py-5">
-                <h4>Canada</h4>
-                <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
-                <h4>Canada</h4>
-                <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
-                <h4>Canada</h4>
-                <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
-                <h4>Canada</h4>
-                <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
-                <h4>Canada</h4>
-                <p>Daniel Korchinski ( University of British Columbia ) - Speaker</p>
-            </div>
-        )
-    }
-    else if(props.url==="program"){
-        return(
-            <div class="container py-5">
-                <div>
-                    <h4 class="extra-program">All listed times are in Europe/Zurich - GMT+02:00</h4>
-                </div>
-                <div>
-                    <h2>Wednesday May 24th 2023  - Day 1</h2>
-                    <p>Morning session</p>
-                    <ul>
-                        <li>08:50 to 09:00 - Opening remarks</li>
-                        <li><a href="#" onclick="openNewsModal(4,13878,'talk');return false">09:00 to 09:30 - GILLES TARJUS - The yielding transition of strained amorphous solids: Nonequilibrium phase transition, finite-size effects and mesoscale modeling</a>
-                        </li>
-                    </ul>
-                    <p>Afternoon session</p>
-                    <ul>
-                        <li>08:50 to 09:00 - Opening remarks</li>
-                        <li><a href="#" onclick="openNewsModal(4,13878,'talk');return false">09:00 to 09:30 - GILLES TARJUS - The yielding transition of strained amorphous solids: Nonequilibrium phase transition, finite-size effects and mesoscale modeling</a>
-                        </li>
-                    </ul>
-                </div>
-                <div>
-                    <h2>Wednesday May 24th 2023  - Day 1</h2>
-                    <p>Morning session</p>
-                    <ul>
-                        <li>08:50 to 09:00 - Opening remarks</li>
-                        <li><a href="#" onclick="openNewsModal(4,13878,'talk');return false">09:00 to 09:30 - GILLES TARJUS - The yielding transition of strained amorphous solids: Nonequilibrium phase transition, finite-size effects and mesoscale modeling</a>
-                        </li>
-                    </ul>
-                    <p>Afternoon session</p>
-                    <ul>
-                        <li>08:50 to 09:00 - Opening remarks</li>
-                        <li><a href="#" onclick="openNewsModal(4,13878,'talk');return false">09:00 to 09:30 - GILLES TARJUS - The yielding transition of strained amorphous solids: Nonequilibrium phase transition, finite-size effects and mesoscale modeling</a>
-                        </li>
-                    </ul>
-                </div>
-                <p>Workshop End</p>
-            </div>
-        )
-    }
-    else if(props.url==="abstract"){
-        return(
-            <div class="container py-5">
-                <h4>Talks</h4>
-                <ul>      
-                    <li>
-                        <a href="#" onclick="openNewsModal(4,13912,'talk');return false">A mapping between the micromechanics of glasses and elasto-plastic models</a>                                 
-                        <p>
-                            <b>david richard</b>
-                            <span></span>
-                        </p>                            
-                    </li>      
-                    <li>                               
-                        <a href="#" onclick="openNewsModal(4,13907,'talk');return false">
-                            Active mechanics in thin sheet materials
-                        </a>                             
-                        <p>
-                            <b>Daniel Matoz</b> 
-                            <span> </span>
-                        </p>                           
-                    </li>      
-                    <li>                               
-                        <a href="#" onclick="openNewsModal(4,13921,'talk');return false">
-                            An elasto-plastic approach based on microscopic insights for sheared disordered solids
-                        </a>                                
-                        <p>
-                            <b>Kirsten Martens, </b> 
-                            <span> 
-                                Chen Liu (Columbia university), Suman Dutta (ICTS-TIFR), Pinaki Chaudhuri (Institute of Mathematical Sciences)
-                            </span>
-                        </p>                            
-                    </li>      
-                    <li>                               
-                        <a href="#" onclick="openNewsModal(4,13893,'talk');return false">
-                            Characterizing the irreversibility and yielding transition of a sheared amorphous solid using transition graphs
-                        </a>                                 
-                        <p>
-                            <b>Muhittin Mungan</b> 
-                            <span> </span>
-                        </p>                           
-                    </li>      
-                    <li>                               
-                        <a href="#" onclick="openNewsModal(4,13858,'talk');return false">
-                            Correlations of tensor field components in isotropic systems with applications to stress and strain correlations in equilibrium and driven elastic and viscoelastic bodies
-                        </a>                                 
-                        <p>
-                            <b>Joachim Wittmer</b> 
-                            <span> </span>
-                        </p>                            
-                    </li>                
-                </ul>
-            </div>
-        )
-    }
-    else if(props.url==="doc"){
-        return(
-            <div class="container py-5">
-                <div>
-                    <h4>Booklet</h4>
-                    <img src="https://members.cecam.org/images/pdf-file.png" width="24px" alt=""></img>
-                    <a href="#">
-                        Booklet_Mesoscale-modelling-of-driven-disordered-materials-From-glasses-to-active-matter-1684305484.pdf
-                    </a>
-                </div>
-                <div>
-                    <h4>Files</h4>
+    const styleSpeakers = {
+        flex: 1,
+        maxWidth: 'calc(33.33% - 20px)',
+        margin: '10px'
+        }
+  if (props.url === "desc") {
+    return (
+      <div class="container py-5">
+        <p>
+          Embark on a captivating journey into the world of Rheology, inspired
+          by the age-old concept of "Panta Rei," signifying that with time,
+          everything flows. Delve into the science of studying material flow and
+          deformation, gaining insights into the behavior of various substances,
+          from soft matter to engineering materials. Explore the cutting-edge
+          Anton Paar Rheometer 702e, a state-of-the-art instrument recently
+          established in our institute, revolutionizing research in material
+          science and characterizing a diverse range of materials. This workshop
+          offers a unique opportunity to engage with both internal and external
+          experts from both industry and academia, learn about the latest
+          advancements, and witness the powerful impact of Rheology on
+          scientific innovation.
+        </p>
+        <h4>Event details </h4>
+        <h4>Important dates</h4>
+        <h4>Coordinators</h4>
+        <ul>
+          <li>Dr. Veena Venudharan, Department of Civil Engineering</li>
+          <li>Dr. Vishwas V, Department of Physics</li>
+        </ul>
+      </div>
+    );
+  } else if (props.url === "part") {
+    return (
+      <div class="container py-5">
+        <h4>Academia Speakers</h4>
+        <ul>
+          {/*  */}
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              flexWrap: 'wrap'
+            }}
+          >
+            <li style={styleSpeakers}>
+              Prof. Abhijit P. Deshpande, IIT Madras
+              <br></br>
+              <img
+                src="https://che.iitm.ac.in/wp-content/uploads/2021/07/Dr.-Abhijit-P.-Deshpande.jpg"
+                height="200"
+                alt=""
+              ></img>
+            </li>
+            <li style={styleSpeakers}>
+                Prof. Murali Krishnan J., IIT Madras
+                <br></br>
+              <img
+                src="https://civil.iitm.ac.in/faculty/jmk/admin/download/Murali_Krishnan31.jpg"
+                height="200"
+                alt=""
+              ></img>
+            </li>
+            <li style={styleSpeakers}>
+                Dr. Rahul A. V., IIT Tirupati
+                <br></br>
+              <img
+                src="https://www.iittp.ac.in/images/demo/iit/rahul.jpg"
+                height="200"
+                alt=""
+              ></img>
+            </li>
+            <li style={styleSpeakers}>
+                Dr. Sayantan Majumdar, RRI Bengaluru
+                <br></br>
+              <img
+                src="https://www.rri.res.in/sites/default/files/2022-05/HSC_0022.jpg"
+                height="200"
+                alt=""
+              ></img>
+            </li>
+          </div>
+        </ul>
+        <h4>Industry Speakers</h4>
+        <ul>
+          <li>
+            <b>TBA</b>
+          </li>
+        </ul>
+      </div>
+    );
+  } else if (props.url === "program") {
+    return (
+      <div class="container py-5">
+        <div>
+          <h4 class="extra-program">All listed times are in IST</h4>
+        </div>
 
-                    <img src="https://members.cecam.org/images/photo-of-a-landscape.png" width="24px" alt=""></img>
-                    <a href="#">Image 1</a>
-                    <br></br>
+        <div>
+          <h2>25th November, 2023, Nila Campus</h2>
 
-                    <p>Goup Pic 1</p>
-                    <img src="https://members.cecam.org/images/photo-of-a-landscape.png" width="24px" alt=""></img>
-                    <a href="#">Image 1</a>
-                    <br></br>
-                    
-                    <p>Goup Pic 2</p>
-                    <img src="https://members.cecam.org/images/photo-of-a-landscape.png" width="24px" alt=""></img>
-                    <a href="#">Image 1</a>
-                </div>
-            </div>
-        )
-    }
+          <h4>Morning session</h4>
+          <ul>
+            <li>
+              09:15 to 09:45 - Commencement and Inauguration of the facility{" "}
+            </li>
+            <li>10:00 to 10:30 - Prof - Title </li>
+            <li>10:30 to 11:00 - Prof - Title</li>
+            <li>
+              <b>Discussion and Q&A</b>
+            </li>
+            <li>11:30 to 12:00 - Prof - Title </li>
+            <li>12:00 to 12:30 - Prof - Title</li>
+            <li>
+              <b>Discussion and Q&A</b>
+            </li>
+          </ul>
+
+          <h4>Lunch and Poster Session - 13:00 to 14:00</h4>
+
+          <h4>Afternoon session</h4>
+          <ul>
+            <li>14:00 to 14:30 - Industry Speaker - Title </li>
+            <li>14:30 to 15:00 - Industry Speaker - Title</li>
+            <li>
+              <b>Discussion and Q&A</b>
+            </li>
+          </ul>
+
+          <h4>Lab Visit and Demonstration - 15:30 to 17:30</h4>
+        </div>
+
+        <h4>Workshop End</h4>
+      </div>
+    );
+  } else if (props.url === "abstract") {
+    return (
+      <div class="container py-5">
+        <h4>Colloquium Talk</h4>
+        <ul>
+          <li>
+            XX/11/2023
+            <ul>
+              <li>
+                <b>TITLE</b>
+              </li>
+              <li>by Prof. , Department of XXX, XXXX University</li>
+            </ul>
+          </li>
+
+          <li>
+            XX/11/2023
+            <ul>
+              <li>
+                <b>TITLE</b>
+              </li>
+              <li>by Prof. , Department of XXX, XXXX University</li>
+            </ul>
+          </li>
+
+          <li>
+            XX/11/2023
+            <ul>
+              <li>
+                <b>TITLE</b>
+              </li>
+              <li>by Prof. , Department of XXX, XXXX University</li>
+            </ul>
+          </li>
+        </ul>
+      </div>
+    );
+  } else if (props.url === "doc") {
+    return (
+      <div class="container py-5">
+        <div>
+          <h4>Posters</h4>
+
+          <ul>
+            <li>1-Presenter-Poster Title</li>
+            <li>2-Presenter-Poster Title</li>
+            <li>3-Presenter-Poster Title</li>
+            <li>4-Presenter-Poster Title</li>
+            <li>5-Presenter-Poster Title</li>
+            <li>6-Presenter-Poster Title</li>
+            <li>7-Presenter-Poster Title</li>
+            <li>8-Presenter-Poster Title</li>
+            <li>9-Presenter-Poster Title</li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
 }

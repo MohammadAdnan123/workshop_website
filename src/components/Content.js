@@ -9,7 +9,7 @@ export default function Content() {
             </li>
             <li class="nav-item border border-2 p-2">
                 <Link to="/participant" className="text-black">
-                    Participant
+                    Speakers
                 </Link>
             </li>
             <li class="nav-item border border-2 p-2">
@@ -25,7 +25,7 @@ export default function Content() {
             </li>
             <li class="nav-item border border-2 p-2">
                 <Link to="/document" className="text-black">
-                    Document
+                   Posters
                 </Link>
             </li>
         </ul>
