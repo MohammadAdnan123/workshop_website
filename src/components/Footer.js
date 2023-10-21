@@ -9,7 +9,7 @@ export default function Footer() {
             href="https://www.iitpkd.ac.in/about-iit-palakkad"
             role="button"
           >
-            <i className="fab fa-facebook-f"> About IIT Palakkad</i>
+            <i> About IIT Palakkad</i>
           </a>
 
           <a
@@ -18,7 +18,7 @@ export default function Footer() {
             role="button"
             target="blank"
           >
-            <i className="fab fa-twitter">Reaching IIT Palakkad</i>
+            <i>Reaching IIT Palakkad</i>
           </a>
 
         </section>

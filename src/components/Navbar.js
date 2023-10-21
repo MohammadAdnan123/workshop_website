@@ -1,11 +1,11 @@
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-dark " style={{backgroundColor: "#2C3E50"}}>
+      <nav className="navbar navbar-dark " style={{borderBottom:'1px solid black'}}>
         <div className="container-fluid">
           <a className="navbar-brand" href="/">
             <img
-              src="https://physics.iitpkd.ac.in/images/design/iitpkd_header.jpg"
+              src="https://www.iitpkd.ac.in/sites/default/files/logo_2.png"
               className="img-fluid"
               style={{height: 120+"px"}}
             />

@@ -8,7 +8,7 @@ export default function Description(props) {
   if (props.url === "desc") {
     return (
       <div class="container py-5">
-        <p>
+        <h5>
           Embark on a captivating journey into the world of Rheology, inspired
           by the age-old concept of "Panta Rei," signifying that with time,
           everything flows. Delve into the science of studying material flow and
@@ -21,9 +21,18 @@ export default function Description(props) {
           experts from both industry and academia, learn about the latest
           advancements, and witness the powerful impact of Rheology on
           scientific innovation.
-        </p>
+        </h5>
         <h4>Event details </h4>
+        <li>
+          Venue : Nila Campus, IIT Palakkad 
+        </li>
         <h4>Important dates</h4>
+        <li>
+          Registration Deadline : 30th October 
+        </li>
+        <li>
+          Poster abs deadline : 6th November
+        </li>
         <h4>Coordinators</h4>
         <ul>
           <li>Dr. Veena Venudharan, Department of Civil Engineering</li>
@@ -67,7 +76,7 @@ export default function Description(props) {
                 Dr. Rahul A. V., IIT Tirupati
                 <br></br>
               <img
-                src="https://www.iittp.ac.in/images/demo/iit/rahul.jpg"
+                src="https://media.licdn.com/dms/image/C5103AQGTcYFLD-3SoQ/profile-displayphoto-shrink_800_800/0/1579113104112?e=2147483647&v=beta&t=uRtGPh95uB2aLi_I2HHrJmD_uFIS0YTNBNPtk9VlGSE"
                 height="200"
                 alt=""
               ></img>
