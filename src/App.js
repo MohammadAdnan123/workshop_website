@@ -1,16 +1,16 @@
-// import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Content from './components/Content';
 import Header from './components/Header';
 import Description from './components/Description';
+import Register from './components/Register'; // Import your Registration component
 
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 function App() {
   return (
     <>
-      <Router basename="/">
+      <Router basename="/home">
         <Navbar />
         <Header />
         <Content />
@@ -20,12 +20,19 @@ function App() {
           <Route path="/program" element={<Description url="program" />}></Route>
           <Route path="/abstract" element={<Description url="abstract" />}></Route>
           <Route path="/document" element={<Description url="doc" />}></Route>
+          <Route path="/participants" element={<Description url="participants" />}></Route>
         </Routes>
         <Footer />
       </Router>
-
+      <Router basename="/register">
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<Register />}></Route>
+        </Routes>
+        <Footer />
+      </Router>
     </>
-
-  )
+  );
 }
+
 export default App;

@@ -41,6 +41,11 @@ export default function Content() {
                     Posters
                 </NavLink>
             </li>
+            <li className="nav-item border border-2 p-2">
+                <NavLink to="/participants" activeClassName="active-link" className="text-white">
+                    Participants
+                </NavLink>
+            </li>
         </ul>
 
     );

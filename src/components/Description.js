@@ -202,4 +202,24 @@ export default function Description(props) {
       </div>
     );
   }
+  else if (props.url === "participants") {
+    return (
+      <div class="container py-5">
+        <div>
+          <h4>Participants</h4>
+          <ul>
+            <li>Partipant - 1</li>
+            <li>Partipant - 2</li>
+            <li>Partipant - 3</li>
+            <li>Partipant - 4</li>
+            <li>Partipant - 5</li>
+            <li>Partipant - 6</li>
+            <li>Partipant - 7</li>
+            <li>Partipant - 8</li>
+            <li>Partipant - 9</li>
+          </ul>
+        </div>
+      </div>
+    );
+  }
 }
