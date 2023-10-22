@@ -1,13 +1,15 @@
-import React from "react";
+import React from 'react';
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Content from './components/Content';
 import Header from './components/Header';
 import Description from './components/Description';
-import Register from './components/Register'; // Import your Registration component
+import Register from './components/Register';
+
 
 function App() {
+
   return (
     <>
       <Router basename="/home">

@@ -15,11 +15,11 @@ export default function Header() {
     };
     return (
         <div className="p-3">
-            <h1 class="small-heading event-type">Rheology @ IITPKD</h1>
-            <h4 class="large-heading event-title">Flow Insights: Unraveling the Complexities of Material Behavior</h4>
+            <h1 class="small-heading event-type">Exploring Complex Material Flows</h1>
+            <h4 class="large-heading event-title">Symposium on Rheology</h4>
             <h5 class="md-heading event-date">November 25, 2023, Saturday</h5>
-            <div style={{ display: 'flex', justifyContent: 'space-around' }}>
-                <a href="#">
+            <div style={{ display: 'flex', justifyContent: 'flex-start' }}>
+                <a href="#" style={{marginRight:50}}>
                     <img src="https://www.iitpkd.ac.in/sites/default/files/styles/width_scale/public/2023-08/SahyadriA0.jpg?itok=MmEKHU02" height="300" />
                 </a>
                 <a href="#">

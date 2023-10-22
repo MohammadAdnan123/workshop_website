@@ -8,7 +8,7 @@ export default function Description(props) {
   if (props.url === "desc") {
     return (
       <div class="container py-5">
-        <h5>
+        <p style={{fontSize:'1.5rem'}}>
           Embark on a captivating journey into the world of Rheology, inspired
           by the age-old concept of "Panta Rei," signifying that with time,
           everything flows. Delve into the science of studying material flow and
@@ -21,7 +21,7 @@ export default function Description(props) {
           experts from both industry and academia, learn about the latest
           advancements, and witness the powerful impact of Rheology on
           scientific innovation.
-        </h5>
+        </p>
         <h4>Event details </h4>
         <li>
           Venue : Nila Campus, IIT Palakkad 
