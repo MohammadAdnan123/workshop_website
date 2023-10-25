@@ -12,7 +12,7 @@ function App() {
 
   return (
     <>
-      <Router basename="/home">
+      <Router basename="/">
         <Navbar />
         <Header />
         <Content />
@@ -26,13 +26,13 @@ function App() {
         </Routes>
         <Footer />
       </Router>
-      <Router basename="/register">
+      {/* <Router basename="/register">
         <Navbar />
         <Routes>
           <Route path="/" element={<Register />}></Route>
         </Routes>
         <Footer />
-      </Router>
+      </Router> */}
     </>
   );
 }

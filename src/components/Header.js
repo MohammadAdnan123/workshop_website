@@ -27,7 +27,7 @@ export default function Header() {
                 <a href="#">
                     <figure>
                         <img src="https://www.anton-paar.com/fileadmin/_processed_/5/f/csm_MCR-702e_perspective_4a2978092c.jpg" height="200" />
-                        <figcaption class="image-caption">Credit: https://www.anton-paar.com/</figcaption>
+                        <figcaption style={{fontSize:'0.5rem'}}class="image-caption">Credit: https://www.anton-paar.com/</figcaption>
                     </figure>
 
                 </a>
@@ -39,7 +39,7 @@ export default function Header() {
 
             <br />
             <Link to="/register" target="_blank">
-                <center> <a style={buttonStyle} href="/register" target="_blank">Register for the event</a></center>
+                <center> <a style={buttonStyle} href="https://forms.gle/L3HStHDuB8TrCchWA" target="_blank">Apply for the event</a></center>
             </Link>
 
         </div>
