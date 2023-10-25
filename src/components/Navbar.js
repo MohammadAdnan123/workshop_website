@@ -1,26 +1,19 @@
+import bannerImage from './../banner.jpg'
 export default function Navbar() {
   return (
     <>
-      <nav className="navbar navbar-dark " style={{borderBottom:'1px solid black'}}>
-        <div className="container-fluid">
-          <a className="navbar-brand" href="/">
+      <nav style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
+        <div >
+          <div style={{ display: "flex", flexDirection: "row", justifyContent: "center" }}>
             <img
-              src="https://www.iitpkd.ac.in/sites/default/files/logo_2.png"
+              src={bannerImage}
               className="img-fluid"
-              style={{height: 120+"px"}}
+              alt=""
+              style={{width:'100vw'}}
             />
-          </a>
-          {/* <button
-            className="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button> */}
+          </div>
+
+
           <div className="collapse navbar-collapse" id="navbarNavAltMarkup">
             <div className="navbar-nav">
               <a className="nav-link active" aria-current="page" href="/">

@@ -15,8 +15,16 @@ export default function Register() {
         cursor: 'pointer',
     };
     return (
-        <div >
-            <center style={{backgroundColor:'#C2D9FF', color:'black'}}><h2>Step 1: Make Payment</h2></center>
+        <div style={{marginTop:'10vh'}}>
+            <center style={{backgroundColor:'#ffffff', color:'black'}}><h2>Register Here</h2></center>
+            <div>
+                <Link to="https://docs.google.com/forms/d/10wpudoCMS5MYDam_7TGhiBq0XL7xnrnhrxZEKSLZnYA/edit?ts=6534c35e" target="_blank">
+                    <center><button style={buttonStyle}>Register</button></center>
+                </Link>
+            </div>
+            <hr />
+            <center style={{backgroundColor:'#ffffff', color:'black', marginTop:'5vh', }}><h2>Make Payment</h2></center>
+
             <div style={{ display: 'flex', flexDirection: 'row', justifyContent: 'space-evenly', margin:20 }}>
                 <img src={qr} alt="QR code" height={500} />
                 <ul style={{listStyleType:'none'}}>
@@ -33,12 +41,6 @@ export default function Register() {
                 </ul>
 
 
-            </div>
-            <center style={{backgroundColor:'#C2D9FF', color:'black'}}><h2>Step 2: Register Here</h2></center>
-            <div>
-                <Link to="https://docs.google.com/forms/d/10wpudoCMS5MYDam_7TGhiBq0XL7xnrnhrxZEKSLZnYA/edit?ts=6534c35e" target="_blank">
-                    <center><button style={buttonStyle}>Register Now</button></center>
-                </Link>
             </div>
         </div>
     )
