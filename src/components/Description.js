@@ -54,7 +54,6 @@ export default function Description(props) {
       <div class="container py-5">
         <h4>Academia Speakers</h4>
         <ul style={{ listStyleType: 'none' }}>
-          {/*  */}
           <div
             style={{
               display: "flex",
@@ -131,9 +130,47 @@ export default function Description(props) {
         </ul>
         <h4>Industry Speakers</h4>
         <ul>
-          <li>
-            <b>TBA</b>
-          </li>
+          <div
+            style={{
+              display: "flex",
+              flexDirection: "row",
+              justifyContent: "space-between",
+              flexWrap: 'wrap'
+            }}
+          >
+            <div>
+
+            </div>
+            <li style={styleSpeakers}>
+              <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg"
+                  height="200"
+                  alt=""
+                ></img>
+                <br />
+                <h6>Dr. Athira P.K.</h6>
+                <h6>Application scientist for rheology</h6>
+                <h6>Anton Paar,Mumbai </h6>
+                <a href="https://in.linkedin.com/in/athira-perilakalathil-ph-d-62b16856?trk=public_profile_like_view_actor-name">Click here</a>
+              </div>
+
+            </li>
+            <li style={styleSpeakers}>
+              <div style={{ display: 'flex', flexDirection: 'column', justifyContent: 'center', alignItems: 'center' }}>
+
+                <img
+                  src="https://upload.wikimedia.org/wikipedia/commons/b/bc/Unknown_person.jpg"
+                  height="200"
+                  alt=""
+                ></img>
+                <br />
+                <h6>Industry speaker 2</h6>
+                <h6>TBA</h6>
+
+              </div>
+            </li>
+          </div>
         </ul>
       </div>
     );
