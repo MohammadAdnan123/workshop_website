@@ -1,8 +1,8 @@
 import abhijit from "../images/Abhijit.jpg"
 import murali from "../images/murali_krishnan.jpeg"
-import rahul from "../images/rahul.jpeg"
+import rahul from "../images/RahulAV.png"
 import sayantan from "../images/Sayantan.jpeg"
-import athira from "../images/Athira.jpg"
+import athira from "../images/Athira.jpeg"
 export default function Description(props) {
     const styleSpeakers = {
         flex: 1,
