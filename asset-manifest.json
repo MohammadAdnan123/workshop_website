@@ -1,0 +1,17 @@
+{
+  "files": {
+    "main.css": "/rheology_syno/static/css/main.e6c13ad2.css",
+    "main.js": "/rheology_syno/static/js/main.312695d1.js",
+    "static/js/787.b9fa7a6e.chunk.js": "/rheology_syno/static/js/787.b9fa7a6e.chunk.js",
+    "static/media/banner.jpg": "/rheology_syno/static/media/banner.8ae2dde860c2f503d434.jpg",
+    "static/media/qr_code.png": "/rheology_syno/static/media/qr_code.31bb473a8b253e259670.png",
+    "index.html": "/rheology_syno/index.html",
+    "main.e6c13ad2.css.map": "/rheology_syno/static/css/main.e6c13ad2.css.map",
+    "main.312695d1.js.map": "/rheology_syno/static/js/main.312695d1.js.map",
+    "787.b9fa7a6e.chunk.js.map": "/rheology_syno/static/js/787.b9fa7a6e.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e6c13ad2.css",
+    "static/js/main.312695d1.js"
+  ]
+}
